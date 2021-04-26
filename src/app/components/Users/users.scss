@@ -1,0 +1,18 @@
+.users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  &__table {
+    border: 1px solid;
+    text-align: center;
+    background-color: rgb(231, 202, 202);
+  }
+
+  &__td {
+    border: 1px solid;
+    padding: 5px;
+  }
+}
